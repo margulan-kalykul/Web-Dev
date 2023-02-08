@@ -1,0 +1,100 @@
+body {
+    padding: 0 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper-panel {
+    height: 54px;
+    padding: 0px 24px;
+}
+.home {
+    position: relative;
+    top: 16px;
+    left: 10px;
+}
+.logo {
+    width: 108px;
+}
+.use-link {
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin-right: 10px;
+}
+.use-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.enter-region {
+    position: relative;
+    width: fit-content;
+    left: 1400px;
+    top: -15px;
+}
+.enter-button {
+    width: fit-content;
+    height: 32px;
+}
+.enter {
+    position: relative;
+    float: left;
+    top: 7px;
+    margin-right: 5px;
+}
+.enter-icon {
+    width: 32px;
+}
+.right-link1 {
+    left: 800px;
+}
+.right-link2 {
+    left: 500px;
+}
+.back-image {
+    width: 100%;
+}
+.back-text {
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    font-size: large;
+}
+.pc-test {
+    background-color: #0067b8;
+    font-size: 1.2em;
+    color: white;
+    padding: 10px 10px;
+}
+.pc-test:hover {
+    cursor: pointer;
+    background-color: rgb(0, 92, 165);
+}
+.products {
+    width: 100%;
+    height: fit-content;
+}
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-card {
+    width: 360px;
+    height: 600px;
+}
+.product-image {
+    width: 340px;
+}
+.card-content {
+    margin: 10px;
+}
+.product-link {
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+.product-link:hover {
+    text-decoration: underline;
+}
