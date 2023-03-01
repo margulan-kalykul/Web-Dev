@@ -1,0 +1,10 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <!-- <h4>{{ product.price | currency }}</h4> -->
+  <button shareButton="telegram">Telegram share</button>
+  <p>{{ product.description }}</p>
+  <h1>{{ product.rating }}</h1>
+  <button type="button" (click)="addToCart(product)">Buy</button>
+</div>

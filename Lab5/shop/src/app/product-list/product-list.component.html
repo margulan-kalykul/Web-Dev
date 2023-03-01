@@ -1,0 +1,10 @@
+<div *ngIf="to_show">
+  <button (click)="closeList()">Back</button>
+  <h2>Products</h2>
+
+  <div *ngFor="let product of products">
+    <div *ngIf="product.category == list_id">
+      <app-product-item [product]="product"></app-product-item>
+    </div>
+  </div>
+</div>

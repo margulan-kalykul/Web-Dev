@@ -1,0 +1,15 @@
+<div [hidden]="selected != 0">
+    <h1>Categories</h1>
+
+    <div *ngFor="let category of categories" style="display: inline-block;">
+        <a (click)="openCategory(category.id)">
+            <div class="category">
+                <h3 style="text-align: center;">{{ category.name }}</h3>
+
+                <img class="category-image" src="{{ category.image }}" alt="image of the category">
+            </div>
+        </a>
+    </div>
+</div>
+
+<app-product-list [list_id]="selected" (goBack)="reopen()"></app-product-list>
