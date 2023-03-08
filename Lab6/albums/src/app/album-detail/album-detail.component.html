@@ -1,0 +1,19 @@
+<a routerLink="/albums">
+    <button>Back</button>
+</a>
+
+<h1>Album details #{{ curAlbum.id }}</h1>
+
+<h2>Album title:</h2>
+
+<p>{{ curAlbum.title }}</p>
+
+<fieldset>
+    <label for="change-name">Enter new name</label>
+    <input type="text" name="change-name" [(ngModel)]="newName">
+    <button (click)="changeName()">Save</button>
+</fieldset>
+
+<a routerLink="/albums/{{curAlbum.id}}/photos">
+    <button>Photos</button>
+</a>
