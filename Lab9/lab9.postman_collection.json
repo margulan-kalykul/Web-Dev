@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "022a02a0-45f2-47a9-8c10-0b63837b2a18",
+		"name": "lab9",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27003255"
+	},
+	"item": [
+		{
+			"name": "company_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/companies",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"companies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "company_detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/companies/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"companies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vacancy_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/vacancies",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"vacancies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "company_vacancies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/companies/1/vacancies",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"companies",
+						"1",
+						"vacancies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vacancy_detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/vacancies/2",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"vacancies",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "top_ten_vacancies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/vacancies/top_ten",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"vacancies",
+						"top_ten"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
